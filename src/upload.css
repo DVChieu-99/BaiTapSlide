@@ -1,0 +1,284 @@
+
+.SlideShow
+{
+	width: 100%;
+	height: 90%;
+	margin-top: 2%;
+	margin-bottom: 2%;
+	padding-left: 1%;
+
+}
+.SlideShowmain
+{
+	width: 100%;
+	height: 90%;
+	display: flex;
+	align-items: center;
+	background-color: pink;
+	overflow: hidden;
+}
+.Slide{
+	min-width: 100%;
+	height: 70%;
+	transition: 0.5s;
+	width: 80vh;
+} 
+button:hover{
+		background:rgba(108, 88, 197, 0.7);
+	}
+.left{
+	position: absolute;
+	top:34%;
+	left: 0;
+	width: 3%;
+	height: 8%;
+	transform: translateY(50%);
+	border-radius: 8px;
+	background:none;
+}
+.right{
+	position: absolute;
+	top:35%;
+	right: 0;
+	border-radius: 8px;
+	transform: translateY(50%);	
+	width: 3%;
+	height: 8%;
+	background: none;
+}
+.Hinhanh
+{
+	height: 100%;
+	min-width: 100%;
+	background-color: #61dafb;
+	margin: 1%;
+}
+.Hinhanh img{
+	min-width: 100%;
+	height: 24vh;
+}
+.Hinhanh button
+{
+	border-radius: 8px;
+	background-color: green;
+	margin-left: 16%;
+	width: 10%;
+	min-height: 20%;
+	min-width: 15%;
+	text-align: center;
+	margin-bottom: 2%;
+	height: 5vh;
+}
+.Hinhanh p
+{
+	margin-left: 50%;
+
+}
+.contaier
+{
+	border: 2px solid red;
+}
+.head
+{
+	margin:2% 2% 2%; 
+	/*4 thành phần top right bottom left
+	  3 thành phần top (right left) bottom
+	*/
+}
+.search
+{
+	float: right;
+	margin-right:2%;
+}
+@media screen and (max-width: 780px) and (min-width: 480px){
+ .SlideShow
+{
+	
+	width: 100%;
+	height: 90%;
+	margin-top: 2%;
+	margin-bottom: 2%;
+	padding-left: 2%;
+}
+.SlideShowmain
+{
+	width: 100%;
+	height: 90%;
+	display: flex;
+	align-items: center;
+	background-color: pink;
+	overflow: hidden;
+}
+  .search
+{
+	float: left;
+}
+.left{
+	position: absolute;
+	top:10%;
+	left: 0;	
+	transform: translateY(50%);
+	width: 4%;
+	height: 10%;
+	border-radius: 8px;
+	
+}
+.right{
+	position: absolute;
+	top:10%;
+	left: 10;	
+	transform: translateY(50%);
+	width: 4%;
+	height: 10%;
+	border-radius: 8px;
+}
+.Hinhanh img{
+	min-width: 100%;
+	height: 15vh;	
+}
+button:hover{
+		background:rgba(108, 88, 197, 0.7);
+	}
+}
+@media screen and (max-width: 1024px)and (min-width: 780px)
+{
+	.SlideShow
+{
+	width: 100%;
+	height: 90%;
+	margin-top: 2%;
+	margin-bottom: 2%;
+	padding-left: 2%;
+}
+.SlideShowmain
+{
+	width: 100%;
+	height: 90%;
+	display: flex;
+	align-items: center;
+	background-color: pink;
+	overflow: hidden;
+}
+  .search
+{
+	float: left;
+}
+.left{
+	position: absolute;
+	top:10%;
+	left: 0;	
+	transform: translateY(50%);
+	width: 4%;
+	height: 10%;
+	border-radius: 8px;
+	
+}
+.right{
+	position: absolute;
+	top:10%;
+	right: 0;	
+	transform: translateY(50%);
+	width: 4%;
+	height: 10%;
+	border-radius: 8px;
+}
+.Hinhanh img{
+	min-width: 100%;
+	height: 15vh;	
+}
+}
+
+@media screen and (max-width: 380px){
+.SlideShowmain
+{
+	width: 100%;
+	height: 90%;
+	display: flex;
+	align-items: center;
+	background-color: pink;
+	overflow: hidden;
+}
+.SlideShow
+{
+	width: 100%;
+	height: 90%;
+	margin-top: 2%;
+	margin-bottom: 2%;
+	padding-left: 3%;
+}
+
+ .left{
+	position: absolute;
+	top:20%;
+	left: 0;
+	border-radius: 8px;
+	transform: translateY(-50%);
+	width: 10%;
+	height: 5%;
+}
+
+.right{
+	position: absolute;
+	top:20%;
+	right: 0;
+	border-radius: 8px;
+	transform: translateY(-50%);
+	width: 10%;
+	height: 5%;
+}
+.Hinhanh img{
+	min-width: 100%;
+	height: 10vh;	
+}
+.search
+{
+	float: left;
+}
+}
+@media screen and (max-width: 480px){
+.SlideShowmain
+{
+	width: 100%;
+	height: 90%;
+	display: flex;
+	align-items: center;
+	background-color: pink;
+	overflow: hidden;
+}
+.SlideShow
+{
+	width: 100%;
+	height: 90%;
+	margin-top: 2%;
+	margin-bottom: 2%;
+	padding-left: 3%;
+}
+
+ .left{
+	position: absolute;
+	top:20%;
+	left: 0;
+	border-radius: 8px;
+	transform: translateY(-50%);
+	width: 10%;
+	height: 5%;
+}
+
+.right{
+	position: absolute;
+	top:20%;
+	right: 0;
+	border-radius: 8px;
+	transform: translateY(-50%);
+	width: 10%;
+	height: 5%;
+}
+.Hinhanh img{
+	min-width: 100%;
+	height: 10vh;	
+}
+.search
+{
+	float: left;
+}
+}
